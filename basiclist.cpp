@@ -12,6 +12,7 @@ int main(){
     cout<<endl;
     l.push_back(1);
     l.push_front(2);
+    cout<<"Printing l:";
     for(int i:l){
         cout<<i<<" ";
     }
