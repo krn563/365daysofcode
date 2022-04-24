@@ -9,7 +9,7 @@ int main(){
         cout<<"Enter the number:";
         cin>>arr[i];
     }
-
+    
     for(int i=1;i<n;i++){
         int current=arr[i];
         int j=i-1;
@@ -24,3 +24,6 @@ int main(){
         cout<<arr[i];
     }
 }
+
+
+
